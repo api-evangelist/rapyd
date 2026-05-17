@@ -1,7 +1,7 @@
 aid: rapyd
 url: https://raw.githubusercontent.com/api-evangelist/rapyd/refs/heads/main/apis.yml
 name: Rapyd
-x-type: company
+kind: company
 description: Rapyd is a global Fintech-as-a-Service network offering collect, disburse, hold, and issue capabilities across
   100+ countries with local payment methods, cards, and bank transfers.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
