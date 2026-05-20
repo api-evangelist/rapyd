@@ -6,74 +6,78 @@ description: Rapyd is a global Fintech-as-a-Service network offering collect, di
   100+ countries with local payment methods, cards, and bank transfers.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Fintech
-- Payments
-- Cross-Border
-- Cards
-- Wallets
+  - Fintech
+  - Payments
+  - Cross-Border
+  - Cards
+  - Wallets
 created: '2026-05-08'
 modified: '2026-05-08'
 specificationVersion: '0.19'
 apis:
-- name: Rapyd Collect API
-  description: Accept payments globally across 900+ local payment methods including cards, bank transfers, eWallets and cash.
-  humanURL: https://docs.rapyd.net/en/merchant-api-reference.html
-  baseURL: https://api.rapyd.net/v1
-  tags:
-  - Collect
-  - Payments
-  - Global Payments
-  properties:
-  - type: Documentation
-    url: https://docs.rapyd.net/en/merchant-api-reference.html
-- name: Rapyd Disburse API
-  description: Send mass payouts to bank accounts, cards and wallets in 190+ countries.
-  humanURL: https://docs.rapyd.net/en/merchant-api-reference.html
-  baseURL: https://api.rapyd.net/v1
-  tags:
-  - Disburse
-  - Payouts
-  properties:
-  - type: Documentation
-    url: https://docs.rapyd.net/en/merchant-api-reference.html
-- name: Rapyd Wallet API
-  description: Create and manage multi-currency eWallets for end users and merchants.
-  humanURL: https://docs.rapyd.net/en/merchant-api-reference.html
-  baseURL: https://api.rapyd.net/v1
-  tags:
-  - Wallet
-  properties:
-  - type: Documentation
-    url: https://docs.rapyd.net/en/merchant-api-reference.html
-- name: Rapyd Issuing API
-  description: Issue physical and virtual prepaid and debit cards.
-  humanURL: https://docs.rapyd.net/en/merchant-api-reference.html
-  baseURL: https://api.rapyd.net/v1
-  tags:
-  - Issuing
-  - Cards
-  properties:
-  - type: Documentation
-    url: https://docs.rapyd.net/en/merchant-api-reference.html
-- name: Rapyd Global Accounts API
-  description: Open multi-currency virtual accounts to receive funds locally in major markets.
-  humanURL: https://docs.rapyd.net/en/merchant-api-reference.html
-  baseURL: https://api.rapyd.net/v1
-  tags:
-  - Accounts
-  - Multi-Currency
-  properties:
-  - type: Documentation
-    url: https://docs.rapyd.net/en/merchant-api-reference.html
+  - name: Rapyd Collect API
+    description: Accept payments globally across 900+ local payment methods including cards, bank transfers, eWallets and cash.
+    humanURL: https://docs.rapyd.net/en/merchant-api-reference.html
+    baseURL: https://api.rapyd.net/v1
+    tags:
+    - Collect
+    - Payments
+    - Global Payments
+    properties:
+    - type: Documentation
+      url: https://docs.rapyd.net/en/merchant-api-reference.html
+  - name: Rapyd Disburse API
+    description: Send mass payouts to bank accounts, cards and wallets in 190+ countries.
+    humanURL: https://docs.rapyd.net/en/merchant-api-reference.html
+    baseURL: https://api.rapyd.net/v1
+    tags:
+    - Disburse
+    - Payouts
+    properties:
+    - type: Documentation
+      url: https://docs.rapyd.net/en/merchant-api-reference.html
+  - name: Rapyd Wallet API
+    description: Create and manage multi-currency eWallets for end users and merchants.
+    humanURL: https://docs.rapyd.net/en/merchant-api-reference.html
+    baseURL: https://api.rapyd.net/v1
+    tags:
+    - Wallet
+    properties:
+    - type: Documentation
+      url: https://docs.rapyd.net/en/merchant-api-reference.html
+  - name: Rapyd Issuing API
+    description: Issue physical and virtual prepaid and debit cards.
+    humanURL: https://docs.rapyd.net/en/merchant-api-reference.html
+    baseURL: https://api.rapyd.net/v1
+    tags:
+    - Issuing
+    - Cards
+    properties:
+    - type: Documentation
+      url: https://docs.rapyd.net/en/merchant-api-reference.html
+  - name: Rapyd Global Accounts API
+    description: Open multi-currency virtual accounts to receive funds locally in major markets.
+    humanURL: https://docs.rapyd.net/en/merchant-api-reference.html
+    baseURL: https://api.rapyd.net/v1
+    tags:
+    - Accounts
+    - Multi-Currency
+    properties:
+    - type: Documentation
+      url: https://docs.rapyd.net/en/merchant-api-reference.html
 common:
-- type: Website
-  url: https://www.rapyd.net/
-- type: Plans
-  url: plans/rapyd-plans-pricing.yml
-- type: RateLimits
-  url: rate-limits/rapyd-rate-limits.yml
-- type: FinOps
-  url: finops/rapyd-finops.yml
+  - type: GitHubOrganization
+    url: https://github.com/RapydPayments
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/rapydpayments
+  - type: Website
+    url: https://www.rapyd.net/
+  - type: Plans
+    url: plans/rapyd-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/rapyd-rate-limits.yml
+  - type: FinOps
+    url: finops/rapyd-finops.yml
 maintainers:
-- FN: Kin Lane
-  email: kin@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
