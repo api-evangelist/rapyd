@@ -78,6 +78,8 @@ common:
     url: rate-limits/rapyd-rate-limits.yml
   - type: FinOps
     url: finops/rapyd-finops.yml
+  - type: LLMsTxt
+    url: https://docs.rapyd.net/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
