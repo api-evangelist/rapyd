@@ -4,7 +4,7 @@ name: Rapyd
 kind: company
 description: Rapyd is a global Fintech-as-a-Service network offering collect, disburse, hold, and issue capabilities across
   100+ countries with local payment methods, cards, and bank transfers.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Fintech
   - Payments
