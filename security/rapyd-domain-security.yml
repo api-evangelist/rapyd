@@ -1,0 +1,27 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.rapyd.net
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 25 16:48:35 2026 GMT
+  hsts: true
+  hsts_max_age: 63072000
+- host: docs.rapyd.net
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep  8 23:59:59 2026 GMT
+  hsts: false
+- host: api.rapyd.net
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 13 08:13:22 2026 GMT
+  hsts: null
+domains:
+- domain: rapyd.net
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine
