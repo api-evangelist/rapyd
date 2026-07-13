@@ -1,0 +1,21 @@
+{
+  "repo": "rapyd",
+  "feeds": [
+    {
+      "source": "https://www.rapyd.net/feed/",
+      "feed_url": "https://www.rapyd.net/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://docs.rapyd.net/llms.txt",
+      "feed_url": "https://docs.rapyd.net/llms.txt",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 15
+}
