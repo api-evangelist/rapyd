@@ -25,7 +25,7 @@ tags:
   - Wallets
 created: '2026-05-08'
 modified: '2026-05-08'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - name: Rapyd Collect API
     description: Accept payments globally across 900+ local payment methods including cards, bank transfers, eWallets and cash.
