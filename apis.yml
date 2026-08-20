@@ -53,6 +53,8 @@ apis:
     humanURL: https://docs.rapyd.net/en/merchant-api-reference.html
     baseURL: https://api.rapyd.net/v1
     tags:
+    - Wallets
+    tags_raw:
     - Wallet
     properties:
     - type: Documentation
@@ -72,6 +74,9 @@ apis:
     humanURL: https://docs.rapyd.net/en/merchant-api-reference.html
     baseURL: https://api.rapyd.net/v1
     tags:
+    - Account
+    - Multi-Currency
+    tags_raw:
     - Accounts
     - Multi-Currency
     properties:
