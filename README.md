@@ -1,4 +1,4 @@
-# Rapyd (rapyd)
+# Rapyd
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,40 +64,107 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Rapyd is a global Fintech-as-a-Service platform offering local payment methods, payouts, business accounts, wallets and card issuing in 100+ countries.
+Rapyd is a global Fintech-as-a-Service network offering collect, disburse, hold, and issue capabilities across 100+ countries with local payment methods, cards, and bank transfers.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/rapyd/refs/heads/main/apis.yml)
+**Areas:** Fintech · Payments · Cross-Border · Cards · Wallets · Cross-Border Payments
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=rapyd-api-evangelist&utm_content=repo)
+## Rapyd on APIs.io
 
-## Type
-- **x-type:** company
+Everything profiled for Rapyd is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rapyd/](https://apis.io/providers/rapyd/)** — or go straight to one of the APIs or properties below.
 
-## Tags
-- Fintech, Payments, Global Payments, Wallets, Issuing
+### APIs (5)
 
-## Timestamps
-- **Created:** 2026-05-08
-- **Modified:** 2026-05-08
+- [Rapyd Collect API](https://apis.io/apis/rapyd/rapyd-collect-api/) — Accept payments globally across 900+ local payment methods including cards, bank transfers, eWallets and cash.
+- [Rapyd Disburse API](https://apis.io/apis/rapyd/rapyd-disburse-api/) — Send mass payouts to bank accounts, cards and wallets in 190+ countries.
+- [Rapyd Wallet API](https://apis.io/apis/rapyd/rapyd-wallet-api/) — Create and manage multi-currency eWallets for end users and merchants.
+- [Rapyd Issuing API](https://apis.io/apis/rapyd/rapyd-issuing-api/) — Issue physical and virtual prepaid and debit cards.
+- [Rapyd Global Accounts API](https://apis.io/apis/rapyd/rapyd-global-accounts-api/) — Open multi-currency virtual accounts to receive funds locally in major markets.
 
-## APIs
-- **Rapyd Collect API** — Accept payments globally across 900+ local payment methods including cards, bank transfers, eWallets and cash.
-- **Rapyd Disburse API** — Send mass payouts to bank accounts, cards and wallets in 190+ countries.
-- **Rapyd Wallet API** — Create and manage multi-currency eWallets for end users and merchants.
-- **Rapyd Issuing API** — Issue physical and virtual prepaid and debit cards.
-- **Rapyd Global Accounts API** — Open multi-currency virtual accounts to receive funds locally in major markets.
+### Published properties
 
-## Common Properties
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Rapyd Domain Security](https://apis.io/security/rapyd/rapyd-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Rapyd Plans Pricing](https://apis.io/plans/rapyd/rapyd-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Rapyd Rate Limits](https://apis.io/rate-limits/rapyd/rapyd-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Rapyd Finops](https://apis.io/finops/rapyd/rapyd-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://www.rapyd.net/)
-- [Plans](plans/rapyd-plans-pricing.yml) — placeholder, pipeline reconciles later
-- [RateLimits](rate-limits/rapyd-rate-limits.yml) — placeholder
-- [FinOps](finops/rapyd-finops.yml) — FOCUS-aligned placeholder
+- [Blog](https://www.rapyd.net/feed/)
+- [GitHub](https://github.com/RapydPayments)
 
-## Documentation
-- [Developer Docs](https://docs.rapyd.net/en/index-en.html)
-- [API Reference](https://docs.rapyd.net/en/merchant-api-reference.html)
+## API Evangelist rating
 
-## Maintainers
-**FN:** Kin Lane
+**Kin Score 9.3** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 69.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 5.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.4** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rapyd/](https://apis.io/providers/rapyd/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Rapyd: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rapyd/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
